@@ -1,0 +1,6 @@
+X = int(input())
+Y = float(input())
+Y = round(Y,1)
+kml = X/Y
+kml = round(kml,3)
+print(kml,'km/l')
