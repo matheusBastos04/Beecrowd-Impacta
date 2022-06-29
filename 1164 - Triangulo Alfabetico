@@ -1,0 +1,5 @@
+n = int(input())
+letra = ('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z')
+
+for cont in range(n):
+    print(letra[cont]*(cont + 1))
