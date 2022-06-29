@@ -1,0 +1,12 @@
+a = int(input())
+
+b = a % 2
+
+if b == 0:
+    ant = a - 1
+    suc = a + 2
+    print(ant,suc)
+else:
+    antecessor = a - 2
+    sucessor = a + 1
+    print(antecessor,sucessor)
