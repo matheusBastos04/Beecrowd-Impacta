@@ -1,0 +1,4 @@
+pol = float(input())
+
+cen = 2.54 * pol
+print(f"{cen:.3f}")
