@@ -1,0 +1,9 @@
+preco = float(input())
+quantidade = int(input())
+
+subtotal = preco * quantidade
+dez = subtotal * (-10/100)
+um_porc = subtotal * (-1/100) * quantidade
+a = subtotal + dez + um_porc                                                                                                                                                                                                                                 
+print(f"{subtotal:.2f}")
+print(f"{a:.2f}")
