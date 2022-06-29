@@ -1,0 +1,9 @@
+i = int(input())
+f = int(input())
+cont = 0
+
+for ano in range(i,f + 1):
+    if ano % 4 == 0 and ano % 100 or ano % 400 == 0:
+        print(ano)
+        cont += 1    
+print(f'bissextos: {cont}')
